@@ -15,7 +15,9 @@
 	}
 }
 .tree-view {
-	.icon:before { color: @tree-view-icon-color !important; }
+	.icon-file-directory, .icon-repo {
+		&:before { color: @tree-view-icon-color; }
+	}
 }
 .list-group, .list-tree{
 
